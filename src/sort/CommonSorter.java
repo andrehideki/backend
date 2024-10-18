@@ -7,7 +7,7 @@ public class CommonSorter {
     protected void swap(Integer[] array, int i, int j) {
         int aux = array[i];
         array[i] = array[j];
-        array[i+1] = aux;
+        array[j] = aux;
     }
 
     protected void print(Integer[] array) {
